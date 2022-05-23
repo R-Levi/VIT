@@ -1,0 +1,79 @@
+
+load data ImageNet
+train data total 48000
+val data total 12000
+load model ...
+In_channels=3,Img_size=224,Patch_size = 16,Depth = 12 ,Num_class=100,Drop_out=0
+optimizer:{'state': {}, 'param_groups': [{'lr': 0.01, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0.001, 'amsgrad': False, 'initial_lr': 0.01, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]}]}
+scheduler:{'milestones': Counter({50: 1, 150: 1, 250: 1}), 'gamma': 0.1, 'base_lrs': [0.01], 'last_epoch': 0, '_step_count': 1, 'verbose': False, '_get_lr_called_within_step': False, '_last_lr': [0.01]}
+in_channels=3,img_size=224,num_class=100
+start training ...
+start training ... on cuda
+Train Top 1 Accuracy  for epoch (1) is: 5.3374999999999995
+Train Top 5 Accuracy for epoch (1) is: 17.94375
+Test Top 1 Accuracy  for epoch (1) is: 5.575
+Test Top 5 Accuracy for epoch (1) is: 18.60833333333333
+Train Top 1 Accuracy  for epoch (2) is: 6.05
+Train Top 5 Accuracy for epoch (2) is: 19.83125
+Test Top 1 Accuracy  for epoch (2) is: 5.783333333333333
+Test Top 5 Accuracy for epoch (2) is: 19.625
+Train Top 1 Accuracy  for epoch (3) is: 6.24375
+Train Top 5 Accuracy for epoch (3) is: 20.443749999999998
+Test Top 1 Accuracy  for epoch (3) is: 6.391666666666667
+Test Top 5 Accuracy for epoch (3) is: 20.608333333333334
+Train Top 1 Accuracy  for epoch (4) is: 6.83125
+Train Top 5 Accuracy for epoch (4) is: 21.439583333333335
+Test Top 1 Accuracy  for epoch (4) is: 6.925000000000001
+Test Top 5 Accuracy for epoch (4) is: 21.383333333333333
+Train Top 1 Accuracy  for epoch (5) is: 6.58125
+Train Top 5 Accuracy for epoch (5) is: 21.6625
+Test Top 1 Accuracy  for epoch (5) is: 6.675000000000001
+Test Top 5 Accuracy for epoch (5) is: 21.666666666666668
+Train Top 1 Accuracy  for epoch (6) is: 7.316666666666667
+Train Top 5 Accuracy for epoch (6) is: 22.714583333333334
+Test Top 1 Accuracy  for epoch (6) is: 7.425
+Test Top 5 Accuracy for epoch (6) is: 22.816666666666666
+Train Top 1 Accuracy  for epoch (7) is: 7.593750000000001
+Train Top 5 Accuracy for epoch (7) is: 23.679166666666667
+Test Top 1 Accuracy  for epoch (7) is: 7.925
+Test Top 5 Accuracy for epoch (7) is: 23.491666666666667
+load data ImageNet
+train data total 48000
+val data total 12000
+load model ...
+In_channels=3,Img_size=224,Patch_size = 16,Depth = 12 ,Num_class=100,Drop_out=0
+optimizer:{'state': {}, 'param_groups': [{'lr': 0.01, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0.01, 'amsgrad': False, 'initial_lr': 0.01, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]}]}
+scheduler:{'milestones': Counter({50: 1, 150: 1, 250: 1}), 'gamma': 0.1, 'base_lrs': [0.01], 'last_epoch': 0, '_step_count': 1, 'verbose': False, '_get_lr_called_within_step': False, '_last_lr': [0.01]}
+in_channels=3,img_size=224,num_class=100
+start training ...
+start training ... on cuda
+Train Top 1 Accuracy  for epoch (1) is: 4.991666666666666
+Train Top 5 Accuracy for epoch (1) is: 17.804166666666667
+Test Top 1 Accuracy  for epoch (1) is: 5.291666666666667
+Test Top 5 Accuracy for epoch (1) is: 17.758333333333333
+Train Top 1 Accuracy  for epoch (2) is: 5.235416666666667
+Train Top 5 Accuracy for epoch (2) is: 18.120833333333334
+Test Top 1 Accuracy  for epoch (2) is: 5.525
+Test Top 5 Accuracy for epoch (2) is: 18.35833333333333
+Train Top 1 Accuracy  for epoch (3) is: 4.802083333333333
+Train Top 5 Accuracy for epoch (3) is: 17.283333333333335
+Test Top 1 Accuracy  for epoch (3) is: 5.033333333333333
+Test Top 5 Accuracy for epoch (3) is: 17.166666666666668
+load data ImageNet
+train data total 48000
+val data total 12000
+load model ...
+In_channels=3,Img_size=224,Patch_size = 16,Depth = 12 ,Num_class=100,Drop_out=0
+optimizer:{'state': {}, 'param_groups': [{'lr': 0.01, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0.001, 'amsgrad': False, 'initial_lr': 0.01, 'params': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]}]}
+scheduler:{'milestones': Counter({50: 1, 150: 1, 250: 1}), 'gamma': 0.5, 'base_lrs': [0.01], 'last_epoch': 0, '_step_count': 1, 'verbose': False, '_get_lr_called_within_step': False, '_last_lr': [0.01]}
+in_channels=3,img_size=224,num_class=100
+start training ...
+start training ... on cuda
+Train Top 1 Accuracy  for epoch (1) is: 5.585416666666667
+Train Top 5 Accuracy for epoch (1) is: 18.804166666666667
+Test Top 1 Accuracy  for epoch (1) is: 5.616666666666666
+Test Top 5 Accuracy for epoch (1) is: 19.025
+Train Top 1 Accuracy  for epoch (2) is: 5.483333333333333
+Train Top 5 Accuracy for epoch (2) is: 18.975
+Test Top 1 Accuracy  for epoch (2) is: 5.441666666666666
+Test Top 5 Accuracy for epoch (2) is: 18.85
